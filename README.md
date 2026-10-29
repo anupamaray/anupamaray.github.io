@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# anupamaray.github.io
 
-You can use the [editor on GitHub](https://github.com/anupamaray/anupamaray.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Personal website of **Anupama Ray** — Senior Research Scientist, IBM Research.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+🔗 **Live site:** https://anupamaray.github.io
 
-### Markdown
+## About
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A single-page academic and professional profile covering research, publications,
+patents, talks, teaching, awards, and professional service. Built as plain,
+self-contained HTML (no build step, no framework) and served free via GitHub Pages.
 
-```markdown
-Syntax highlighted code block
+## Structure
 
-# Header 1
-## Header 2
-### Header 3
+| File | Purpose |
+|------|---------|
+| `index.html` | The entire site — markup and CSS inline, with a light/dark theme toggle |
+| `profile.jpg` | Profile photo |
+| `files/AnupamaRay_CV.pdf` | Downloadable CV (linked from the header) |
+| `robots.txt`, `sitemap.xml` | Search-engine discoverability |
 
-- Bulleted
-- List
+The page includes JSON-LD structured data and Open Graph tags in `<head>` so search
+engines and LLMs can identify the profile and its linked accounts (LinkedIn, Google
+Scholar, DBLP, GitHub).
 
-1. Numbered
-2. List
+## Updating the site
 
-**Bold** and _Italic_ and `Code` text
+1. Edit `index.html` (or swap in a new `profile.jpg` / `files/AnupamaRay_CV.pdf`).
+2. Commit and push to the `master` branch:
+   ```bash
+   git add -A
+   git commit -m "Update site"
+   git push origin master
+   ```
+3. GitHub Pages rebuilds automatically; changes are live in ~1–5 minutes.
 
-[Link](url) and ![Image](src)
-```
+No local server or build is required — opening `index.html` in a browser previews it exactly.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Links
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anupamaray/anupamaray.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Google Scholar](https://scholar.google.com/citations?user=FUjYQ-8AAAAJ&hl=en)
+- [DBLP](https://dblp.org/pid/136/3987.html)
+- [LinkedIn](https://www.linkedin.com/in/anupama-ray-55140826/)
