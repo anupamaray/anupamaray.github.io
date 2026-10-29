@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anupamaray.github.io/sitemap.xml
