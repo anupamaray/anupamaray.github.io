@@ -1,106 +1,734 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Anupama Ray, Daydreamer</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<img src="img/Anupama.jpeg" width="100" height="100">
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anupama Ray</title>
+<meta name="description" content="Anupama Ray — Research Scientist, IBM Research AI. Machine Learning, NLP, Computer Vision, and Quantum Machine Learning." />
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f7f8fa;
+    --surface-2: #eef1f5;
+    --text: #1a1d24;
+    --muted: #5b6472;
+    --faint: #8a94a3;
+    --border: #e3e7ee;
+    --accent: #2b5bd7;
+    --accent-soft: #e8eefc;
+    --tag-bg: #eef1f5;
+    --shadow: 0 1px 2px rgba(20, 30, 50, 0.04), 0 4px 16px rgba(20, 30, 50, 0.05);
+    --radius: 14px;
+    --maxw: 820px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1117;
+      --surface: #161b22;
+      --surface-2: #1c232d;
+      --text: #e6e9ef;
+      --muted: #9aa4b2;
+      --faint: #6b7483;
+      --border: #272e38;
+      --accent: #6b9bff;
+      --accent-soft: #16233f;
+      --tag-bg: #1c232d;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1117;
+    --surface: #161b22;
+    --surface-2: #1c232d;
+    --text: #e6e9ef;
+    --muted: #9aa4b2;
+    --faint: #6b7483;
+    --border: #272e38;
+    --accent: #6b9bff;
+    --accent-soft: #16233f;
+    --tag-bg: #1c232d;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.35);
+  }
 
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
 
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/blog.html">Research</a></li>
-        		<!--<li><a href="/files/AnupamaRay_CV.pdf">CV</a></li> -->
-        		<li><a href="/pub.html">Publications</a></li>
-			<li><a href="/acad.html">Academic Activities</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Anupama Ray!</h1>
-				<p>I am a Research Scientist at IBM India Research Labs, Bangalore, India, working in the department of AI for Interaction. I completed my PhD from Indian Institute of Technology Delhi, India. </p>
-				<p><a href="files/AnupamaRay_CV.pdf">Click here to view my CV</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		
-		<div class="container1">
-    		<div class="blurb1">
-        		<h1>Bio</h1>
-				<p>Dr. Anupama Ray is an Advisory Research Scientist at IBM Research, India. She completed her Ph.D from Indian Institute of Technology Delhi. Her doctoral research focused on developing and applying multi-dimensional deep recurrent neural networks for document analysis and computer vision applications. At IBM Research, she has been predominantly working in the area of natural language processing: building NLP systems for low-resource languages, domain independent information extraction systems and natural language generation. Her research focus includes building multi-modal metalearning systems for several applications such as emotion recognition, depression severity prediction etc. She has interests in theory and practice of deep learning, and improving current AI algorithms using Quantum computing. She has published several papers in top tier conferences and journals and has received several Best paper awards. She has been the recipient of the Research Division Award, Eminence and Excellence Award and Outstanding Technical Achievement Award for her innovations and contributions at IBM Research. She was nominated and selected as a Young Scientist in Global Young Scientist Summit and is an active member of IEEE, GHCI and Society of Women Engineers (SWE) India.</p>
-    		</div><!-- /.blurb1 -->
-		</div><!-- /.container1 -->
-			
-		<div class="container1">
-    		<div class="blurb2">
-        		<h1>Education</h1>
-				<p> PhD Thesis titled: "Sequential Labeling for Image based patterns", Indian Institute of Technology Delhi, India	Jan 2013-Aug 2017</p>
-				<p> Master of Technology, Dissertation titled: "Study of the effect of stress on Heart Rate Variability (HRV) using Statistical machine learning", National Institute of Technology, Rourkela, India 2010-2012 <p>
-				<p> Bachelor of Technology (B.Tech) in Electronics & Instrumentation Engineering, West Bengal University of Technology, Kolkata, India	2006-2010  <p>
-				
-    		</div><!-- /.blurb1 -->
-		</div><!-- /.container1 -->	
-			
-		<div class="container1">
-    		<div class="blurb3">
-        		<h1>Awards</h1>
-				<p> 1. IEEE Best Women Professional Award 2021 (Early Career) from IEEE India and Hope foundation<p>
-				<p> 2. Best paper award “Deployed Paper Award” at Conference of Innovative Applications of Artificial Intelligence (AAAI 2020)<p>
-				<p> 3. I with my team of 2 undergraduate student interns won the “Depression Detection Challenge” in AVEC Workshop in ACM Multimedia 2019.<p>
-				<p> 4. Recipient of “Outstanding Technology Achievement Award”, IBM Research 2019 <p>
-				<p> 5. Best paper award “Deployed Case study award” at Conference of Innovative Applications of Artificial Intelligence (AAAI 2019)<p>
-				<p> 6. Recipient of “Research Division Award”, IBM Research 2018.<p>
-				<p> 7. Recipient of “External and Eminence Cash prize award”, IBM 2018.</p>
-   		</div><!-- /.blurb1 -->
-		</div><!-- /.container1 -->
-		
-		<div class="container1">
-    		<div class="blurb3">
-        		<h1>Courses Taught</h1>
-				<p>Co-instructed a 4-week MOOC on Introduction to Quantum Computing: Quantum Algorithms and Qiskit with over 10K registered participants (Aug 2021)<p>
-				<p>Co-instructor for a running course at ISI-Kolkata on Quantum Computing<p>
-				<p>Lectured in 4 short courses at IIT Roorkee India in Machine Learning, Deep Learning, NLP and Advanced NLP.<p>
-		</div><!-- /.blurb1 -->
-		</div><!-- /.container1 -->
-		
-		<div class="container1">
-    		<div class="blurb2">
-        		<h1>Professional Services</h1>
-				
-				
-				<p>Nominated and Selected as Young Scientist at <a href="/about">Global Young Scientist Summit 2018</a>, which is a multi-disciplinary summit with globally recognized scientific leaders as speakers, who are recipients of the Nobel Prize, Fields Medal, Millennium Technology Prize, and Turing Award. This summit gives participants an opportunity to take part in lectures, plenary sessions, panel discussions and interact with speakers in informal small group sessions. Beyond these sessions as participants, we got to visit other universities, research centers and Government agencies to learn more about Singapore’s local research and innovation ecosystem. </p>  
-				<p>Certified Qiskit Advocate (Qiskit is the opensource SDK for working with Quantum Computers)<p>
-				<p>IBM Quantum Technical Ambassador 2020<p>
+  /* Nav */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: saturate(160%) blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: 12px 16px;
+    display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  }
+  .nav-inner .brand { font-weight: 700; margin-right: auto; }
+  .nav-inner a.link { color: var(--muted); font-size: 14px; font-weight: 500; }
+  .nav-inner a.link:hover { color: var(--accent); text-decoration: none; }
 
-			<p> Member AAAI <p>
-				<p> Member IEEE <p>
-				<p> Member ACM <p>
-				<p> Member SWE <p>
-				<p> Organizer GHCI <p>
-				
-				<h2>Program Committee</h2>
-				<p> COLING Industry track<p>
-				<p> Grace Hopper Conference India <p>
-				<p> Member AAAI <p>
-				
-				<h2>Reviewer</h2>
-				<p> IEEE Transactions of Cybernetics <p>
-				<p> International Conference of Multimodal Interaction ICMI <p>
-				
-				
-				
-    		</div><!-- /.blurb1 -->
-		</div><!-- /.container1 -->	
-		
-		
-		
-		<footer>
-    		<ul>
-        		<li><a href="mailto:anupamaray88@gmail.com">email</a></li>
-        		<li><a href="https://github.com/anupamaray">github.com/anupamaray</a></li>
-			</ul>
-		</footer>
-	</body>
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
+  section { padding: 44px 0 8px; scroll-margin-top: 70px; }
+  h2.section-title {
+    font-size: 13px; font-weight: 700; letter-spacing: 0.09em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 18px;
+  }
+
+  /* Hero */
+  header.hero { padding: 48px 0 12px; }
+  .hero-top { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
+  .avatar {
+    width: 112px; height: 112px; border-radius: 50%; flex: none;
+    background: var(--surface-2); border: 1px solid var(--border);
+    display: grid; place-items: center; font-size: 34px; font-weight: 700; color: var(--faint);
+    overflow: hidden;
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .hero-text { flex: 1 1 320px; min-width: 260px; }
+  .hero-text h1 { font-size: 34px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .hero-text .role { font-size: 17px; color: var(--muted); font-weight: 500; margin-bottom: 14px; }
+  .hero-text .role b { color: var(--text); }
+  .credentials { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 4px; }
+  .credentials span {
+    font-size: 12.5px; font-weight: 600; color: var(--accent);
+    background: var(--accent-soft); padding: 3px 10px; border-radius: 999px;
+  }
+  .blurb { color: var(--muted); margin: 14px 0 0; max-width: 60ch; }
+
+  .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 7px 13px; border-radius: 9px; font-size: 14px; font-weight: 600;
+    background: var(--surface); border: 1px solid var(--border); color: var(--text);
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn.primary:hover { color: #fff; opacity: 0.92; }
+
+  /* Metrics — compact chips, same scale as the buttons above */
+  .metrics { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+  .metric {
+    display: inline-flex; align-items: baseline; gap: 6px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 9px;
+    padding: 7px 13px;
+  }
+  .metric .num { font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
+  .metric .lbl { font-size: 12.5px; color: var(--faint); font-weight: 500; }
+
+  /* Cards */
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 18px 20px; margin-bottom: 12px; box-shadow: var(--shadow);
+  }
+  .card .tag {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--accent); background: var(--accent-soft);
+    padding: 2px 9px; border-radius: 999px; margin-bottom: 8px;
+  }
+  .card h3 { margin: 0 0 4px; font-size: 16.5px; line-height: 1.4; }
+  .card .meta { color: var(--muted); font-size: 14px; }
+  .card .sub { color: var(--faint); font-size: 13px; margin-top: 3px; }
+
+  .pub-authors { color: var(--muted); font-size: 14px; }
+  .pub-venue { color: var(--faint); font-size: 13.5px; font-style: italic; margin-top: 2px; }
+  .pub-cites { color: var(--accent); font-size: 12.5px; font-weight: 600; margin-top: 4px; }
+
+  /* Compact publication list (full list) */
+  .pub-list { list-style: none; padding: 0; margin: 0; counter-reset: pub; }
+  .pub-list li {
+    position: relative; padding: 12px 0 12px 34px; border-bottom: 1px solid var(--border);
+    font-size: 14.5px; line-height: 1.5;
+  }
+  .pub-list li:last-child { border-bottom: 0; }
+  /* Unnumbered variant — no counter badge, no left indent */
+  .pub-list.plain li { padding-left: 0; }
+  .pub-list.plain li::before { display: none; content: none; }
+  .pub-list li::before {
+    counter-increment: pub; content: counter(pub);
+    position: absolute; left: 0; top: 12px; width: 22px; height: 22px;
+    background: var(--surface-2); color: var(--muted); border-radius: 6px;
+    font-size: 11px; font-weight: 700; display: grid; place-items: center;
+  }
+  .pub-list .pt { color: var(--text); font-weight: 600; }
+  .pub-list .pv { color: var(--faint); font-style: italic; }
+  .pub-list .pa { color: var(--muted); }
+  .pub-list .award {
+    display: inline-block; font-size: 11px; font-weight: 700; color: var(--accent);
+    background: var(--accent-soft); padding: 1px 7px; border-radius: 999px; margin-left: 4px;
+    font-style: normal;
+  }
+  .pub-list .award.preprint { color: var(--faint); background: var(--surface-2); }
+  .sublabel {
+    font-size: 13px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--muted); margin: 26px 0 6px;
+  }
+  details.more > summary {
+    cursor: pointer; color: var(--accent); font-weight: 600; font-size: 14.5px;
+    padding: 10px 0; list-style: none;
+  }
+  details.more > summary::-webkit-details-marker { display: none; }
+  details.more > summary::before { content: "▸ "; }
+  details.more[open] > summary::before { content: "▾ "; }
+
+  .placeholder {
+    border: 1px dashed var(--border); background: transparent; color: var(--muted);
+    border-radius: var(--radius); padding: 16px 18px; margin-bottom: 12px; font-size: 14.5px;
+  }
+  .placeholder b { color: var(--text); }
+
+  /* Experience timeline */
+  .xp-company { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+  .xp-company h3 { margin: 0; font-size: 19px; }
+  .xp-company .tenure { color: var(--faint); font-size: 14px; }
+  .timeline { position: relative; margin-left: 8px; padding-left: 24px; border-left: 2px solid var(--border); }
+  .tl-item { position: relative; padding-bottom: 20px; }
+  .tl-item:last-child { padding-bottom: 0; }
+  .tl-item::before {
+    content: ""; position: absolute; left: -31px; top: 4px;
+    width: 11px; height: 11px; border-radius: 50%;
+    background: var(--accent); border: 2px solid var(--bg);
+  }
+  .tl-item.current::before { box-shadow: 0 0 0 4px var(--accent-soft); }
+  .tl-item .tl-role { font-weight: 600; font-size: 15.5px; }
+  .tl-item .tl-dates { color: var(--faint); font-size: 13px; }
+  .tl-item.current .tl-dates { color: var(--accent); font-weight: 600; }
+
+  .muted-note { color: var(--faint); font-size: 13.5px; margin: 6px 0 0; }
+
+  .video-embed {
+    position: relative; width: 100%; padding-top: 56.25%; /* 16:9 */
+    margin-top: 12px; border-radius: 10px; overflow: hidden;
+    background: var(--surface-2); border: 1px solid var(--border);
+  }
+  .video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+  /* Clickable video thumbnail (opens on YouTube) */
+  .video-thumb {
+    position: relative; display: block; width: 100%; padding-top: 56.25%;
+    margin-top: 12px; border-radius: 10px; overflow: hidden;
+    border: 1px solid var(--border); background: var(--surface-2);
+  }
+  .video-thumb img {
+    position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .video-thumb:hover img { transform: scale(1.03); opacity: 0.9; }
+  .video-thumb .play {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 68px; height: 48px; border-radius: 12px;
+    background: rgba(0, 0, 0, 0.75); display: grid; place-items: center;
+    transition: background 0.2s ease;
+  }
+  .video-thumb:hover .play { background: #ff0000; }
+  .video-thumb .play::after {
+    content: ""; border-style: solid; border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent #fff; margin-left: 3px;
+  }
+  .video-thumb .yt-label {
+    position: absolute; bottom: 8px; right: 10px; color: #fff; font-size: 12px;
+    font-weight: 600; background: rgba(0,0,0,0.6); padding: 2px 8px; border-radius: 6px;
+  }
+
+  footer {
+    margin-top: 48px; border-top: 1px solid var(--border);
+    padding: 26px 0 40px; color: var(--faint); font-size: 13.5px;
+  }
+  .footer-links { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }
+
+  .toggle-theme {
+    background: none; border: 1px solid var(--border); color: var(--muted);
+    border-radius: 8px; padding: 5px 9px; font-size: 13px; cursor: pointer;
+  }
+  .toggle-theme:hover { color: var(--accent); border-color: var(--accent); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="brand">Anupama Ray</span>
+    <a class="link" href="#about">About</a>
+    <a class="link" href="#experience">Experience</a>
+    <a class="link" href="#teaching">Teaching</a>
+    <a class="link" href="#publications">Publications</a>
+    <a class="link" href="#talks">Talks</a>
+    <a class="link" href="#awards">Awards</a>
+    <a class="link" href="#service">Service</a>
+    <a class="link" href="#education">Education</a>
+    <a class="link" href="#mentorship">Mentorship</a>
+    <button class="toggle-theme" id="themeBtn" aria-label="Toggle theme">◐ Theme</button>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <div class="hero-top">
+    <div class="avatar" id="avatar"><img src="profile.jpg" alt="Anupama Ray" /></div>
+    <div class="hero-text">
+      <h1>Anupama Ray</h1>
+      <div class="role"><b>Senior Research Scientist</b> — IBM Research, India Research Labs, Bangalore</div>
+      <div class="credentials">
+        <span>IBM Quantum Technical Ambassador</span>
+        <span>Qiskit Advocate</span>
+        <span>Adjunct Professor, IIT Jodhpur</span>
+      </div>
+      <p class="blurb" id="blurb">
+        Senior Research Scientist at IBM Research, working at the intersection of AI for Science
+        with a primary focus on Quantum Algorithm Discovery.
+      </p>
+      <div class="links-row">
+        <a class="btn primary" href="https://scholar.google.com/citations?user=FUjYQ-8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn" href="https://dblp.org/pid/136/3987.html" target="_blank" rel="noopener">DBLP</a>
+        <a class="btn" href="https://www.linkedin.com/in/anupama-ray-55140826/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="files/AnupamaRay_CV.pdf" target="_blank" rel="noopener">CV</a>
+        <a class="btn" href="mailto:anupamar@in.ibm.com">Email</a>
+      </div>
+      <div class="metrics">
+        <div class="metric"><span class="num">849</span><span class="lbl">Citations</span></div>
+        <div class="metric"><span class="num">14</span><span class="lbl">h-index</span></div>
+        <div class="metric"><span class="num">19</span><span class="lbl">i10-index</span></div>
+      </div>
+      <p class="muted-note">Metrics from Google Scholar.</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <p style="margin-top:0">
+      I am a Senior Research Scientist at IBM Research, India. I work at the broader intersection of
+      <b>AI for Science</b> and primarily focus on <b>Quantum Algorithm Discovery</b>.
+    </p>
+    <p>
+      Previously I have been working on deep learning algorithms for three major application paradigms:
+      multimodal analysis, natural language generation and natural language understanding.
+    </p>
+    <p>
+      I completed my PhD from <b>IIT Delhi</b>, India. While in my PhD, I worked on developing deep
+      learning algorithms and applying them for document analysis and computer vision applications. I am
+      highly motivated and committed towards building AI solutions for social good applications.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="card">
+      <div class="xp-company">
+        <h3>IBM Research</h3>
+        <span class="tenure">India Research Labs · Jan 2017 – Present · 9 yrs 10 mos</span>
+      </div>
+      <div class="timeline">
+        <div class="tl-item current">
+          <div class="tl-role">Senior Research Scientist</div>
+          <div class="tl-dates">Jul 2024 – Present</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role">Technical Assistant to Director, IBM Research &amp; CTO, IBM India / South Asia</div>
+          <div class="tl-dates">2020 – 2021</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role">Advisory Research Scientist</div>
+          <div class="tl-dates">2020 – Jul 2024</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role">Research Scientist</div>
+          <div class="tl-dates">Jan 2017</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="xp-company">
+        <h3>Indian Institute of Technology Jodhpur</h3>
+        <span class="tenure">Jul 2022 – Dec 2025</span>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-role">Adjunct Professor</div>
+          <div class="tl-dates">Dec 2022 – Dec 2025</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role">Guest Faculty</div>
+          <div class="tl-dates">Jul 2022 – Dec 2022</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="teaching">
+    <h2 class="section-title">Teaching</h2>
+    <div class="card">
+      <span class="tag">NPTEL · Since 2021</span>
+      <h3>Introduction to Quantum Computing: Quantum Algorithms and Qiskit</h3>
+      <div class="meta">
+        A national-level online course offered by IIT Madras in collaboration with IBM, co-taught with
+        Prof. Prabha Mandayam and Prof. Sheshashayee Raghunathan. I have been teaching this course since
+        2021, reaching <b>over 250,000 registered students</b> over the last five years.
+      </div>
+      <div class="sub"><a href="https://nptel.ac.in/courses/106106232" target="_blank" rel="noopener">View course on NPTEL →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">IIT Madras CODE</span>
+      <h3>Quantum Computing</h3>
+      <div class="meta">
+        A hands-on quantum computing course on IIT Madras&rsquo;s CODE platform, where I serve as an
+        instructor. The course has been run for three years.
+      </div>
+      <div class="sub"><a href="https://code.iitm.ac.in/quantum-computing-cohort-2" target="_blank" rel="noopener">View course →</a></div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2 class="section-title">Publications</h2>
+    <p class="muted-note" style="margin:-8px 0 14px">Selected peer-reviewed papers, most recent first. See Google Scholar and DBLP below for the complete, up-to-date list.</p>
+
+    <ol class="pub-list">
+      <li><span class="pt">SQD-Agent: an LLM-driven agentic framework for quantum chemistry workflows.</span>
+        <span class="pa">K. Tiwari, A. Ray.</span> <span class="pv">arXiv:2609.39302, 2026.</span> <span class="award preprint">Preprint</span></li>
+      <li><span class="pt">Choreography and profiling of quantum-classical FaaS workflows on hybrid clouds.</span>
+        <span class="pa">V. Jha, S. Srivastava, T. H. Pal, V. M. Kavitha, R. Majumdar, T. Khare, P. V. Seshadri, V. Kulkarni, A. Ray, Y. Simmhan.</span>
+        <span class="pv">CCGrid, 2025.</span></li>
+      <li><span class="pt">Towards platform-aware application of qubit reuse in hybrid quantum-classical workflows.</span>
+        <span class="pa">S. Srivastava, M. Nath, T. H. Pal, V. M. Kavitha, R. Majumdar, P. V. Seshadri, A. Ray, Y. Simmhan.</span>
+        <span class="pv">HIPCW, 2024.</span></li>
+      <li><span class="pt">Hybrid quantum-classical graph neural networks for tumor classification in digital pathology.</span>
+        <span class="pa">A. Ray, D. Madan, S. Patil, P. Pati, M. Rapsomaniki, et al.</span> <span class="pv">IEEE QCE, 2024.</span></li>
+      <li><span class="pt">Predict and use: harnessing predicted gaze to improve multimodal sarcasm detection.</span>
+        <span class="pa">D. Tiwari, D. Kanojia, A. Ray, A. Nunna, P. Bhattacharyya.</span> <span class="pv">EMNLP, 2023.</span></li>
+      <li><span class="pt">Improving phishing detection in Ethereum transaction network using quantum machine learning.</span>
+        <span class="pa">A. Ray, S. Sakunthala, A. Prabhakar.</span> <span class="pv">IEEE QCE, 2023.</span></li>
+      <li><span class="pt">A multimodal corpus for emotion recognition in sarcasm.</span>
+        <span class="pa">A. Ray, S. Mishra, A. Nunna, P. Bhattacharyya.</span> <span class="pv">LREC, 2022.</span></li>
+      <li><span class="pt">Attention-based coupled framework for road and pothole segmentation.</span>
+        <span class="pa">S. Masihullah, R. Garg, P. Mukherjee, A. Ray.</span> <span class="pv">ICPR, 2020.</span></li>
+      <li><span class="pt">Question quality improvement: deep question understanding for incident management in technical support.</span>
+        <span class="pa">A. Ray, P. Aggarwal, C. Hadhazi, G. Dasgupta, A. Paradkar.</span> <span class="pv">IAAI / AAAI, 2020.</span>
+        <span class="award">Best Deployed Paper</span></li>
+      <li><span class="pt">Automated assignment of helpdesk email tickets: an AI lifecycle case study.</span>
+        <span class="pa">S. Agarwal, J. Bandlamudi, A. Mandal, A. Ray, G. Sridhara.</span> <span class="pv">AI Magazine, 2020 (Invited).</span></li>
+      <li><span class="pt">Multi-level attention network using text, audio and video for depression prediction.</span>
+        <span class="pa">A. Ray, S. Kumar, R. Reddy, P. Mukherjee, R. Garg.</span> <span class="pv">AVEC, ACM Multimedia, 2019.</span>
+        <span class="award">Challenge Winner</span></li>
+      <li><span class="pt">An end-to-end trainable framework for joint optimization of document enhancement and recognition.</span>
+        <span class="pa">M. Sharma, A. Ray, A. Upadhyay, M. Makwana, A. P. Singh, A. Trivedi, S. Chaudhury, A. Saini.</span> <span class="pv">ICDAR, 2019.</span></li>
+      <li><span class="pt">Improving IT support by enhancing incident management process with multi-modal analysis.</span>
+        <span class="pa">A. Mandal, N. Malhotra, S. Agarwal, A. Ray, G. Sridhara.</span> <span class="pv">ICSOC, 2019.</span></li>
+      <li><span class="pt">Automated dispatch of helpdesk email tickets: pushing the limits with AI.</span>
+        <span class="pa">A. Mandal, N. Malhotra, S. Agarwal, A. Ray, G. Sridhara.</span> <span class="pv">IAAI / AAAI, 2019.</span>
+        <span class="award">Best Deployed Paper</span></li>
+      <li><span class="pt">Creative tagline generation framework for product advertisement.</span>
+        <span class="pa">A. Ray, P. Aggarwal, C. K. Maurya, G. B. Dasgupta.</span> <span class="pv">IBM Journal of Research &amp; Development, 63(1), 2019.</span></li>
+      <li><span class="pt">Cognitive system to achieve human-level accuracy in automated assignment of helpdesk email tickets.</span>
+        <span class="pa">A. Mandal, N. Malhotra, S. Agarwal, A. Ray, G. Sridhara.</span> <span class="pv">ICSOC, 2018.</span></li>
+      <li><span class="pt">FuTSe: a fuzzy taxonomy service to facilitate product search.</span>
+        <span class="pa">P. Mohapatra, A. Ray, G. Dasgupta.</span> <span class="pv">CODS-COMAD, 2018.</span></li>
+      <li><span class="pt">A noise-resilient super-resolution framework to boost OCR performance.</span>
+        <span class="pa">M. Sharma, A. Ray, S. Chaudhury, B. Lall.</span> <span class="pv">ICDAR, 2017.</span></li>
+      <li><span class="pt">Non-linear analysis of heart rate variability and ECG signal features of swimmers.</span>
+        <span class="pa">A. Ray, S. K. Nayak, B. Champaty, D. N. Tibarewala, P. Kunal.</span>
+        <span class="pv">Computational Tools and Techniques for Biomedical Signal Processing (IGI Global), ch. 3, 2017.</span></li>
+      <li><span class="pt">Recognition-based text localization from natural scene images.</span>
+        <span class="pa">A. Ray, S. Chaudhury.</span> <span class="pv">ICPR, 2016.</span> <span class="award">Best Paper</span></li>
+      <li><span class="pt">Character recognition using SVM-HMM in a multi-hypotheses architecture.</span>
+        <span class="pa">A. Ray, S. Chaudhury.</span> <span class="pv">DAS, 2016.</span></li>
+      <li><span class="pt">A hypothesize-and-verify framework for text recognition using deep recurrent neural networks.</span>
+        <span class="pa">A. Ray, S. Rajeswar, S. Chaudhury.</span> <span class="pv">ICDAR, 2015.</span></li>
+      <li><span class="pt">OCR for bilingual documents using language modeling.</span>
+        <span class="pa">A. Ray, S. Rajeswar, S. Chaudhury.</span> <span class="pv">MOCR, ICDAR, 2015.</span></li>
+      <li><span class="pt">Sequence labeling of image-based patterns.</span>
+        <span class="pa">A. Ray.</span> <span class="pv">Doctoral Consortium, ICDAR, 2015.</span></li>
+      <li><span class="pt">Text recognition using deep BLSTM networks.</span>
+        <span class="pa">A. Ray, S. Rajeswar, S. Chaudhury.</span> <span class="pv">ICAPR, 2015.</span></li>
+      <li><span class="pt">Scene text recognition using deep belief networks.</span>
+        <span class="pa">A. Ray, S. Rajeswar, S. Chaudhury.</span> <span class="pv">ICVGIP, 2014.</span></li>
+      <li><span class="pt">Character recognition using conditional random field based recognition engine.</span>
+        <span class="pa">A. Ray, A. Chandawala, S. Chaudhury.</span> <span class="pv">ICDAR, 2013.</span></li>
+    </ol>
+    </div>
+
+    <div class="links-row" style="margin-top:16px">
+      <a class="btn primary" href="https://scholar.google.com/citations?user=FUjYQ-8AAAAJ&hl=en" target="_blank" rel="noopener">All papers on Google Scholar →</a>
+      <a class="btn" href="https://dblp.org/pid/136/3987.html" target="_blank" rel="noopener">Full list on DBLP →</a>
+    </div>
+
+    <h2 class="section-title" style="margin-top:38px">Patents</h2>
+
+    <div class="card">
+      <span class="tag">US Patent · 2026</span>
+      <h3>Task-specific language sets for multilingual learning</h3>
+      <div class="pub-venue">US12675644B2</div>
+      <div class="sub"><a href="https://patents.google.com/patent/US12675644B2" target="_blank" rel="noopener">View patent →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">US Patent · 2025</span>
+      <h3>Load-adaptive circuit knitting in quantum-computing-enabled cloud environments</h3>
+      <div class="pub-venue">US20250384198A1</div>
+      <div class="sub"><a href="https://patents.google.com/patent/US20250384198A1" target="_blank" rel="noopener">View patent →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">US Patent · 2025</span>
+      <h3>Learning-based quantum experimental setup selection</h3>
+      <div class="pub-venue">US20250265484A1</div>
+      <div class="sub"><a href="https://patents.google.com/patent/US20250265484A1" target="_blank" rel="noopener">View patent →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">US Patent · 2024</span>
+      <h3>Generation and suggestion of ranked ansatz&ndash;hardware pairings for variational quantum algorithms</h3>
+      <div class="pub-venue">US20240428105A1</div>
+      <div class="sub"><a href="https://patents.google.com/patent/US20240428105A1" target="_blank" rel="noopener">View patent →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">US Patent · 2024</span>
+      <h3>Self-learning annotations to generate rules to be utilized by a rule-based system</h3>
+      <div class="pub-venue">US12106045B2</div>
+      <div class="sub"><a href="https://patents.google.com/patent/US12106045B2" target="_blank" rel="noopener">View patent →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">US Patent · 2021</span>
+      <h3>Approach for automatically adjusting display screen setting based on machine learning</h3>
+      <div class="pub-venue">US11056077B2</div>
+      <div class="sub"><a href="https://patents.google.com/patent/US11056077B2" target="_blank" rel="noopener">View patent →</a></div>
+    </div>
+
+    <div class="links-row" style="margin-top:16px">
+      <a class="btn" href="https://patents.google.com/?inventor=Anupama+Ray" target="_blank" rel="noopener">All patents on Google Patents →</a>
+    </div>
+  </section>
+
+  <section id="talks">
+    <h2 class="section-title">Talks, Media &amp; Outreach</h2>
+
+    <div class="card">
+      <span class="tag">Research Highlight</span>
+      <h3>SQD-Agent: an LLM-driven agentic framework for quantum-classical workflows</h3>
+      <div class="meta">
+        A multi-agent framework using AI as an orchestrator across quantum and classical software
+        (PySCF, Qiskit) and hardware/HPC resources &mdash; making end-to-end quantum chemistry workflows
+        accessible to researchers at every level. Part of a broader vision for AI agents as active
+        research collaborators in quantum computing.
+      </div>
+      <a class="video-thumb" href="https://www.youtube.com/watch?v=n1udnChPheI" target="_blank" rel="noopener"
+         title="Watch on YouTube: SQD-Agent Demo">
+        <img src="https://i.ytimg.com/vi/n1udnChPheI/hqdefault.jpg" alt="SQD-Agent Demo" loading="lazy" />
+        <span class="play" aria-hidden="true"></span>
+        <span class="yt-label">Watch on YouTube</span>
+      </a>
+      <div class="sub" style="margin-top:8px"><a href="https://www.linkedin.com/posts/anupama-ray-55140826_quantumcomputing-agenticai-aiforquantum-ugcPost-7520717851994005504-iaUx/" target="_blank" rel="noopener">Read the full post →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">Talk · Qiskit Fall Fest</span>
+      <h3>DF-SQD &amp; SQD-Agent — directions in AI for Quantum</h3>
+      <div class="meta">
+        Invited talk at QuantumGrad&rsquo;s Qiskit Fall Fest covering Deterministic-Fields Sampling-based
+        Quantum Diagonalization (DF-SQD) for electronic-structure problems, and agentic AI as a research
+        collaborator for quantum chemistry.
+      </div>
+      <a class="video-thumb" href="https://www.youtube.com/watch?v=lKerl-eN7Ao" target="_blank" rel="noopener"
+         title="Watch on YouTube: Qiskit Fall Fest talk — DF-SQD & SQD-Agent">
+        <img src="https://i.ytimg.com/vi/lKerl-eN7Ao/hqdefault.jpg" alt="Qiskit Fall Fest talk — DF-SQD & SQD-Agent" loading="lazy" />
+        <span class="play" aria-hidden="true"></span>
+        <span class="yt-label">Watch on YouTube</span>
+      </a>
+    </div>
+
+    <div class="card">
+      <span class="tag">Podcast</span>
+      <h3>Quantum-centric Supercomputing: architecting AI, HPC &amp; Quantum together</h3>
+      <div class="meta">
+        A conversation on QCSC and the future of scientific computing &mdash; the reference architecture
+        bringing CPUs, GPUs and QPUs into one heterogeneous system, the 2026 ACM Gordon Bell Prize
+        finalist work crossing the 12,000-atom barrier in quantum-classical protein&ndash;ligand
+        simulations, and AI+QCSC for nuclear fusion.
+      </div>
+      <a class="video-thumb" href="https://www.youtube.com/watch?v=6609yOiXlJM" target="_blank" rel="noopener"
+         title="Watch on YouTube: Quantum-centric Supercomputing podcast">
+        <img src="https://i.ytimg.com/vi/6609yOiXlJM/hqdefault.jpg" alt="Quantum-centric Supercomputing podcast" loading="lazy" />
+        <span class="play" aria-hidden="true"></span>
+        <span class="yt-label">Watch on YouTube</span>
+      </a>
+    </div>
+
+    <div class="card">
+      <span class="tag">Podcast · Education</span>
+      <h3>Quantum computing &amp; skilling — building India&rsquo;s quantum talent</h3>
+      <div class="meta">
+        A conversation with Karnavati University on launching undergraduate quantum-computing courses,
+        curriculum co-design, and preparing students and faculty for careers in quantum technologies.
+      </div>
+      <a class="video-thumb" href="https://www.youtube.com/watch?v=lurRDCaOMwc" target="_blank" rel="noopener"
+         title="Watch on YouTube: Karnavati University x IBM Research">
+        <img src="https://i.ytimg.com/vi/lurRDCaOMwc/hqdefault.jpg" alt="Karnavati University podcast — Quantum computing & skilling" loading="lazy" />
+        <span class="play" aria-hidden="true"></span>
+        <span class="yt-label">Watch on YouTube</span>
+      </a>
+    </div>
+
+    <div class="card">
+      <span class="tag">Podcast · Education</span>
+      <h3>A roadmap to learning the math behind quantum &amp; QML</h3>
+      <div class="meta">
+        A podcast on building a learning roadmap for quantum, quantum computing and quantum machine
+        learning &mdash; and how AI experts can cross over to advance quantum (#AIforQuantum).
+      </div>
+      <a class="video-thumb" href="https://www.youtube.com/watch?v=xKLxIfuCsdQ" target="_blank" rel="noopener"
+         title="Watch on YouTube: A roadmap to learning the math behind quantum & QML">
+        <img src="https://i.ytimg.com/vi/xKLxIfuCsdQ/hqdefault.jpg" alt="A roadmap to learning the math behind quantum & QML" loading="lazy" />
+        <span class="play" aria-hidden="true"></span>
+        <span class="yt-label">Watch on YouTube</span>
+      </a>
+    </div>
+
+  </section>
+
+  <section id="awards">
+    <h2 class="section-title">Awards &amp; Honors</h2>
+    <ul class="pub-list plain">
+      <li><span class="pt">Rising Star Award (STEM), 2022</span> &mdash; Women of Color</li>
+      <li><span class="pt">Best Women Professional Award (Early Career), 2021 (Gold Medalist)</span> &mdash; IEEE India &amp; Hope Foundation</li>
+      <li><span class="pt">Best Deployed Paper Award</span> &mdash; IAAI / AAAI 2020</li>
+      <li><span class="pt">Winner, Depression Detection Challenge</span> &mdash; AVEC Workshop, ACM Multimedia 2019 (with two undergraduate interns)</li>
+      <li><span class="pt">Outstanding Technical Achievement Award</span> &mdash; IBM Research, 2019</li>
+      <li><span class="pt">Best Deployed Case Study Award</span> &mdash; IAAI / AAAI 2019</li>
+      <li><span class="pt">Research Division Award</span> &mdash; IBM Research, 2018</li>
+      <li><span class="pt">Eminence &amp; Excellence Award</span> &mdash; IBM, 2018</li>
+    </ul>
+  </section>
+
+  <section id="service">
+    <h2 class="section-title">Professional Service</h2>
+    <div class="card">
+      <h3>Recognition &amp; Roles</h3>
+      <div class="meta">
+        <b>Young Scientist</b>, Global Young Scientist Summit (GYSS) 2018 &mdash; a multidisciplinary summit
+        with Nobel Prize, Fields Medal, Millennium Technology Prize and Turing Award laureates as speakers.<br>
+        <b>Certified Qiskit Advocate</b> &nbsp;·&nbsp; <b>IBM Quantum Technical Ambassador</b> (since 2020)
+      </div>
+    </div>
+    <div class="card">
+      <h3>Memberships &amp; Committees</h3>
+      <div class="meta">
+        <b>Member:</b> AAAI, IEEE, ACM, Society of Women Engineers (SWE) &nbsp;·&nbsp; <b>Organizer:</b> GHCI (Grace Hopper Celebration India)<br>
+        <b>Program Committee:</b> COLING (Industry Track), Grace Hopper Conference India, AAAI<br>
+        <b>Reviewer:</b> IEEE Transactions on Cybernetics, International Conference on Multimodal Interaction (ICMI)
+      </div>
+    </div>
+  </section>
+
+  <section id="recognition">
+    <h2 class="section-title">Recognition</h2>
+
+    <div class="card">
+      <span class="tag">Women in Quantum · 2025</span>
+      <h3>Recognized among India&rsquo;s leading women in quantum science</h3>
+      <div class="meta">
+        Honored by Quantico Technologies on International Women&rsquo;s Day among trailblazing scientists
+        advancing quantum information, computing, algorithms and error correction in India
+        (#NationalQuantumMission).
+      </div>
+      <div class="sub"><a href="https://www.linkedin.com/posts/anupama-ray-55140826_womeninquantum-quantumcomputing-nationalquantummission-share-7304465389466329088-f6Nh/" target="_blank" rel="noopener">View →</a></div>
+    </div>
+
+    <div class="card">
+      <span class="tag">Women in Quantum</span>
+      <h3>&ldquo;Superpositioned for Success: Indian Women Scientists in Quantum&rdquo;</h3>
+      <div class="meta">
+        Featured by Qkrishi among pivotal women contributors driving innovation in quantum algorithms,
+        secure communication, and error correction.
+      </div>
+      <div class="sub"><a href="https://www.linkedin.com/posts/anupama-ray-55140826_thank-you-qkrishi-for-recognizing-our-efforts-share-7171327362112978944-x169/" target="_blank" rel="noopener">View →</a></div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="card">
+      <span class="tag">2013 – 2017</span>
+      <h3>Ph.D. — Indian Institute of Technology Delhi</h3>
+      <div class="meta">
+        Thesis: &ldquo;Sequential Labeling for Image-Based Patterns.&rdquo; Developed and applied
+        multi-dimensional deep recurrent neural networks for document analysis and computer vision.
+      </div>
+    </div>
+    <div class="card">
+      <span class="tag">2010 – 2012</span>
+      <h3>M.Tech — National Institute of Technology, Rourkela</h3>
+      <div class="meta">
+        Dissertation: &ldquo;Study of the Effect of Stress on Heart Rate Variability (HRV) using
+        Statistical Machine Learning.&rdquo;
+      </div>
+    </div>
+    <div class="card">
+      <span class="tag">2006 – 2010</span>
+      <h3>B.Tech, Electronics &amp; Instrumentation Engineering — West Bengal University of Technology</h3>
+      <div class="meta">Kolkata, India.</div>
+    </div>
+  </section>
+
+  <section id="mentorship">
+    <h2 class="section-title">Mentorship</h2>
+    <ol class="pub-list">
+      <li>M.Tech thesis supervisor for Prasanna Biswas (IIT Bombay): &ldquo;Computational Models to Understand Emotions in Sarcasm&rdquo;, 2020. <a href="https://www.semanticscholar.org/paper/Computational-Model-for-Understanding-Emotions-in-A-Biswas-Ray/b8342193c29fad886d43fad97a8c9884ad6f6f25" target="_blank" rel="noopener">Paper &rarr;</a></li>
+      <li>Mentored summer intern Sowmya R. (PhD, IIIT Bangalore): &ldquo;Multimodal Analysis of Speaker Characteristics for Automatic Ranking of Candidates in Job Interviews&rdquo;, 2019.</li>
+      <li>Mentored 5 B.Tech students (IIIT Sri City) on affective computing, behavior prediction and road-condition prediction, 2019.</li>
+      <li>Mentored 3 students from CSIR-CEERI on joint learning of image super-resolution and recognition, leading to two ICDAR publications (2017, 2019).</li>
+      <li>M.Tech thesis: &ldquo;Text Detection and Recognition in Scene Images&rdquo;, 2016 (led to ICPR 2016), IIT Delhi.</li>
+      <li>M.Tech thesis: &ldquo;Text and Object Segmentation using Deep Learning&rdquo;, 2016, IIT Delhi.</li>
+      <li>M.Tech thesis: &ldquo;Text Recognition using Deep Learning Methodologies&rdquo;, 2015 (led to 3 ICDAR/DAS publications), IIT Delhi.</li>
+      <li>B.Tech thesis: &ldquo;Optical Character Recognition of Indian Scripts&rdquo;, 2013 (led to ICDAR 2013), IIT Delhi.</li>
+    </ol>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <div class="footer-links">
+    <a href="mailto:anupamar@in.ibm.com">anupamar@in.ibm.com</a>
+    <a href="https://scholar.google.com/citations?user=FUjYQ-8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    <a href="https://dblp.org/pid/136/3987.html" target="_blank" rel="noopener">DBLP</a>
+    <a href="https://www.linkedin.com/in/anupama-ray-55140826/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <div>© <span id="year"></span> Anupama Ray.</div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // Lightweight theme toggle (light / dark / system)
+  (function () {
+    var btn = document.getElementById('themeBtn');
+    var root = document.documentElement;
+    var modes = ['light', 'dark'];
+    btn.addEventListener('click', function () {
+      var cur = root.getAttribute('data-theme');
+      var next = cur === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+    try {
+      var saved = localStorage.getItem('theme');
+      if (saved) root.setAttribute('data-theme', saved);
+    } catch (e) {}
+  })();
+</script>
+
+</body>
 </html>
